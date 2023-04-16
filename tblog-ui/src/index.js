@@ -3,17 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import NavigationBar from './front_page/NavigationBar';
-import CarouselSlides from './front_page/CarouselSlides';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div style={{marginLeft: '3%'}}>
-      <NavigationBar />
-      <CarouselSlides/>
-    </div>
+    <App/>
   </React.StrictMode>
 );
 

@@ -14,7 +14,7 @@ class NavigationBar extends React.Component {
 
     render() {
         return (
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="info" expand="lg">
               <Container fluid>
                 <Navbar.Brand href="#">T-Blog</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
@@ -25,6 +25,8 @@ class NavigationBar extends React.Component {
                     navbarScroll
                   >
                     <Nav.Link href="#action1">Home</Nav.Link>
+                    <Nav.Link href="#action2">Problems</Nav.Link>
+                    <Nav.Link href="#action2">Data Structures</Nav.Link>
                     <Nav.Link href="#action2">Hot Topics</Nav.Link>
                     <NavDropdown title="About" id="navbarScrollingDropdown">
                       <NavDropdown.Item href="#action3">Contact US</NavDropdown.Item>

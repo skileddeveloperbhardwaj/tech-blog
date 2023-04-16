@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import NavigationBar from './front_page/NavigationBar';
+import CarouselSlides from './front_page/CarouselSlides';
+import TopicsGuide from './front_page/TopicsGrid';
+import DataStructuresTopicsGrid from './front_page/DataStructuresTopicsGrid';
+import Footer from './front_page/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{marginLeft: '3%'}} className='App'>
+      <NavigationBar />
+      <br></br>
+      <CarouselSlides/>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <TopicsGuide/>
+      <br></br><br></br>
+      <DataStructuresTopicsGrid/>
+      <br></br>
+      <Footer/>
     </div>
   );
 }
