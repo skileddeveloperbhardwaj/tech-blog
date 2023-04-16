@@ -5,6 +5,8 @@ import CarouselSlides from './front_page/CarouselSlides';
 import TopicsGuide from './front_page/TopicsGrid';
 import DataStructuresTopicsGrid from './front_page/DataStructuresTopicsGrid';
 import Footer from './front_page/Footer';
+import AlgoCarouselGrid from './front_page/AlgoCarouselGrid';
+import DSCarouselGrid from './front_page/DSCarouselGrid';
 
 function App() {
   return (
@@ -13,9 +15,9 @@ function App() {
       <br></br>
       <CarouselSlides/>
       <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <TopicsGuide/>
+      <AlgoCarouselGrid/>
       <br></br><br></br>
-      <DataStructuresTopicsGrid/>
+      <DSCarouselGrid/>
       <br></br>
       <Footer/>
     </div>
