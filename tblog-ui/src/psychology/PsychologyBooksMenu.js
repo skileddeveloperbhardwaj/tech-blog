@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import how_to_enjoy_life_job from '../img/how_to_enjoy_your_life_your_job.JPG'
 import Nav from 'react-bootstrap/Nav';
+import { Link } from "react-router-dom";
 
 class PsychologyBooksMenu extends React.Component {
     constructor(props) {
@@ -30,7 +31,7 @@ class PsychologyBooksMenu extends React.Component {
                                     <Button variant="primary" href="/tech-blog/psychology/read/">Read</Button>
                                     <Nav defaultActiveKey="/home" as="ul">
                                         <Nav.Item as="li">
-                                            <Nav.Link to="/tech-blog/psychology/read/">Read</Nav.Link>
+                                            <Nav.Link to="/tech-blog/psychology/read/" as={Link}>Read</Nav.Link>
                                         </Nav.Item>
                                     </Nav>
                                 </Card.Body>
