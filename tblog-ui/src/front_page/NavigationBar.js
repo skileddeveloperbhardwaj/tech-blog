@@ -6,53 +6,67 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Explanation from '../algorithms/Explanation';
+import App from '../App';
+import PsychologyBooksMenu from '../psychology/PsychologyBooksMenu';
+import PsychologyBookFinder from '../psychology/PsychologyBookFinder';
 
 class NavigationBar extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+  constructor(props) {
+    super(props);
+  }
 
-    render() {
-        return (
-            <Navbar bg="info" expand="lg">
-              <Container fluid>
-                <Navbar.Brand href="#">T-Blog</Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
-                  <Nav
-                    className="me-auto my-2 my-lg-0"
-                    style={{ maxHeight: '100px' }}
-                    navbarScroll
-                  >
-                    <Nav.Link href="#action1">Home</Nav.Link>
-                    <Nav.Link href="#action2">Problems</Nav.Link>
-                    <Nav.Link href="#action2">Data Structures</Nav.Link>
-                    <Nav.Link href="#action2">Hot Topics</Nav.Link>
-                    <NavDropdown title="About" id="navbarScrollingDropdown">
-                      <NavDropdown.Item href="#action3">Contact US</NavDropdown.Item>
-                      <NavDropdown.Item href="#action4">
-                        Send Feedback
-                      </NavDropdown.Item>
-                      <NavDropdown.Divider />
-                      <NavDropdown.Item href="#action5">
-                        Download Problem Lists
-                      </NavDropdown.Item>
-                    </NavDropdown>
-                  </Nav>
-                  <Form className="d-flex">
-                    <Form.Control
-                      type="search"
-                      placeholder="Search"
-                      className="me-2"
-                      aria-label="Search"
-                    />
-                    <Button variant="outline-success">Search</Button>
-                  </Form>
-                </Navbar.Collapse>
-              </Container>
-            </Navbar>
-          );
-    }
+  render() {
+    return (
+      <Router>
+        <Navbar bg="info" expand="lg">
+          <Container fluid>
+            <Navbar.Brand href="#">T-Blog</Navbar.Brand>
+            <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Collapse id="navbarScroll">
+              <Nav
+                className="me-auto my-2 my-lg-0"
+                style={{ maxHeight: '100px' }}
+                navbarScroll
+              >
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="#action2">Problems</Nav.Link>
+                <Nav.Link href="#action2">Data Structures</Nav.Link>
+                <Nav.Link href="#action2">Hot Topics</Nav.Link>
+                <Nav.Link to="/psychology" as={Link}>Psychology</Nav.Link>
+                <NavDropdown title="About" id="navbarScrollingDropdown">
+                  <NavDropdown.Item href="#action3">Contact US</NavDropdown.Item>
+                  <NavDropdown.Item href="#action4">
+                    Send Feedback
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action5">
+                    Download Problem Lists
+                  </NavDropdown.Item>
+                </NavDropdown>
+              </Nav>
+              <Form className="d-flex">
+                <Form.Control
+                  type="search"
+                  placeholder="Search"
+                  className="me-2"
+                  aria-label="Search"
+                />
+                <Button variant="outline-success">Search</Button>
+              </Form>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+        <Routes>
+          <Route path='/' element={<App/>}/>
+          <Route path="/dijkstra" element={<Explanation/>}/>
+          <Route path="/psychology" element={<PsychologyBooksMenu/>}/>
+          <Route path="/psychology/read" element={<PsychologyBookFinder/>}/>
+        </Routes>
+      </Router>
+    );
+  }
 }
 
 export default NavigationBar;

@@ -11,7 +11,7 @@ import DSCarouselGrid from './front_page/DSCarouselGrid';
 function App() {
   return (
     <div style={{marginLeft: '3%'}} className='App'>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
       <br></br>
       <CarouselSlides/>
       <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>

@@ -21,7 +21,7 @@ function AlgoCarouselGrid(props) {
                                             Some quick example text to build on the card title and make up the
                                             bulk of the card's content.
                                         </Card.Text>
-                                        <Card.Link href="#">Explanation</Card.Link>
+                                        <Card.Link href="/dijkstra?file=dijkstra">Explanation</Card.Link>
                                         <Card.Link href="#">Code</Card.Link>
                                     </Card.Body>
                                 </Card>
