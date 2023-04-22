@@ -26,7 +26,7 @@ class PsychologyBooksMenu extends React.Component {
                                     <Card.Text>
                                         <strong>Impacts</strong>: Life, Job
                                     </Card.Text>
-                                    <Button variant="primary" href="/psychology/read?name=how_to_enjoy_your_life">Read</Button>
+                                    <Button variant="primary" href="/tech-blog/psychology/read/">Read</Button>
                                 </Card.Body>
                             </Card>
                             &nbsp;&nbsp;&nbsp;

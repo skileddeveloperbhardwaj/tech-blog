@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Explanation from '../algorithms/Explanation';
 import App from '../App';
 import PsychologyBooksMenu from '../psychology/PsychologyBooksMenu';
-import PsychologyBookFinder from '../psychology/PsychologyBookFinder';
+import PsychologyBookFinder from '../psychology/read/PsychologyBookFinder';
 
 class NavigationBar extends React.Component {
   constructor(props) {
@@ -34,7 +34,7 @@ class NavigationBar extends React.Component {
                 <Nav.Link href="#action2">Problems</Nav.Link>
                 <Nav.Link href="#action2">Data Structures</Nav.Link>
                 <Nav.Link href="#action2">Hot Topics</Nav.Link>
-                <Nav.Link to="/psychology" as={Link}>Psychology</Nav.Link>
+                <Nav.Link to="/tech-blog/psychology" as={Link}>Psychology</Nav.Link>
                 <NavDropdown title="About" id="navbarScrollingDropdown">
                   <NavDropdown.Item href="#action3">Contact US</NavDropdown.Item>
                   <NavDropdown.Item href="#action4">
@@ -59,10 +59,10 @@ class NavigationBar extends React.Component {
           </Container>
         </Navbar>
         <Routes>
-          <Route path='/' element={<App/>}/>
+          <Route path='/tech-blog/' element={<App/>}/>
           <Route path="/dijkstra" element={<Explanation/>}/>
-          <Route path="/psychology" element={<PsychologyBooksMenu/>}/>
-          <Route path="/psychology/read" element={<PsychologyBookFinder/>}/>
+          <Route path="/tech-blog/psychology/" element={<PsychologyBooksMenu/>}/>
+          <Route path="/tech-blog/psychology/read/" element={<PsychologyBookFinder/>}/>
         </Routes>
       </Router>
     );

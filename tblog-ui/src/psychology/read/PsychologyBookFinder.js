@@ -1,5 +1,5 @@
 import React from "react";
-import HowToEnjoyLifeJobView from "./HowToEnjoyLifeJobView";
+import HowToEnjoyLifeJobView from "../HowToEnjoyLifeJobView";
 
 class PsychologyBookFinder extends React.Component {
     constructor(props) {
@@ -12,10 +12,10 @@ class PsychologyBookFinder extends React.Component {
 
     render() {
         var bookView = [];
-        if (this.bookName == 'how_to_enjoy_your_life') {
+        // if (this.bookName == 'how_to_enjoy_your_life') {
             bookView = <HowToEnjoyLifeJobView />
             console.log("how to");
-        }
+        // }
         return (
             <>
                 {bookView}
