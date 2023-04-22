@@ -28,7 +28,6 @@ class PsychologyBooksMenu extends React.Component {
                                     <Card.Text>
                                         <strong>Impacts</strong>: Life, Job
                                     </Card.Text>
-                                    <Button variant="primary" href="/tech-blog/psychology/read/">Read</Button>
                                     <Nav defaultActiveKey="/home" as="ul">
                                         <Nav.Item as="li">
                                             <Nav.Link to="/tech-blog/psychology/read/" as={Link}>Read</Nav.Link>
