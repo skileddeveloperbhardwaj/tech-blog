@@ -3,6 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import how_to_enjoy_life_job from '../img/how_to_enjoy_your_life_your_job.JPG'
+import Nav from 'react-bootstrap/Nav';
 
 class PsychologyBooksMenu extends React.Component {
     constructor(props) {
