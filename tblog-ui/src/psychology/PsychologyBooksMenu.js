@@ -27,6 +27,11 @@ class PsychologyBooksMenu extends React.Component {
                                         <strong>Impacts</strong>: Life, Job
                                     </Card.Text>
                                     <Button variant="primary" href="/tech-blog/psychology/read/">Read</Button>
+                                    <Nav defaultActiveKey="/home" as="ul">
+                                        <Nav.Item as="li">
+                                            <Nav.Link to="/tech-blog/psychology/read/">Read</Nav.Link>
+                                        </Nav.Item>
+                                    </Nav>
                                 </Card.Body>
                             </Card>
                             &nbsp;&nbsp;&nbsp;
@@ -47,7 +52,7 @@ class PsychologyBooksMenu extends React.Component {
 
                                         How to Enjoy Your Life and Your Job will help you create a new approach to life and people and discover talents you never knew you had. Dale Carnegie can help you get the most out of yourself—all the time. Start developing your innate strengths and abilities—start enriching your life today!
                                         <br></br>
-                                        <strong style={{color:'red', fontSize:'1.5rem'}}>"Count your blessings - not your troubles"</strong>
+                                        <strong style={{ color: 'red', fontSize: '1.5rem' }}>"Count your blessings - not your troubles"</strong>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
