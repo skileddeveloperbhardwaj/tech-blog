@@ -4,13 +4,15 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom";
+import Nav from 'react-bootstrap/Nav';
 
 function AlgoCarouselGrid(props) {
     return (
         <>
             <Carousel variant="dark" indicators="true" pause="hover">
                 <Carousel.Item>
-                    <Container style={{marginLeft:'7.6%', marginBottom:'2%'}}>
+                    <Container style={{ marginLeft: '7.6%', marginBottom: '2%' }}>
                         <Row>
                             <Col xs>
                                 <Card style={{ width: '18rem' }}>
@@ -21,8 +23,14 @@ function AlgoCarouselGrid(props) {
                                             Some quick example text to build on the card title and make up the
                                             bulk of the card's content.
                                         </Card.Text>
-                                        <Card.Link href="/dijkstra?file=dijkstra">Explanation</Card.Link>
-                                        <Card.Link href="#">Code</Card.Link>
+                                        <Nav defaultActiveKey="/home">
+                                            <Nav.Item>
+                                                <Nav.Link to="/tech-blog/algorithms/dijkstra/" as={Link} href="/home">Explanation</Nav.Link>
+                                            </Nav.Item>
+                                            <Nav.Item>
+                                                <Nav.Link to="/tech-blog/algorithms/dijkstra/" as={Link} href="/home">Code</Nav.Link>
+                                            </Nav.Item>
+                                        </Nav>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -35,8 +43,14 @@ function AlgoCarouselGrid(props) {
                                             Some quick example text to build on the card title and make up the
                                             bulk of the card's content.
                                         </Card.Text>
-                                        <Card.Link href="#">Explanation</Card.Link>
-                                        <Card.Link href="#">Code</Card.Link>
+                                        <Nav defaultActiveKey="/home">
+                                            <Nav.Item>
+                                                <Nav.Link to="/tech-blog/algorithms/dnf/" as={Link} href="/home">Explanation</Nav.Link>
+                                            </Nav.Item>
+                                            <Nav.Item>
+                                                <Nav.Link to="/tech-blog/algorithms/dnf/" as={Link} href="/home">Code</Nav.Link>
+                                            </Nav.Item>
+                                        </Nav>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -58,7 +72,7 @@ function AlgoCarouselGrid(props) {
                     </Container>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Container style={{marginLeft:'7.5%', marginBottom:'2%'}}>
+                    <Container style={{ marginLeft: '7.5%', marginBottom: '2%' }}>
                         <Row>
                             <Col xs>
                                 <Card style={{ width: '18rem' }}>
