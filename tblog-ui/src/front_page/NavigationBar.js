@@ -60,7 +60,7 @@ class NavigationBar extends React.Component {
           </Container>
         </Navbar>
         <Routes>
-          <Route path='/' element={<App/>}/>
+          <Route path='/tech-blog/' element={<App/>}/>
           <Route path="/tech-blog/algorithms/dijkstra/" element={<DijkstraExplanation/>}/>
           <Route path="/tech-blog/algorithms/dnf/" element={<DNFExplanation/>}/>
           <Route path="/tech-blog/psychology/" element={<PsychologyBooksMenu/>}/>
