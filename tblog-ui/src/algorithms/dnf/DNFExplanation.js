@@ -38,7 +38,19 @@ class DNFExplanation extends React.Component {
                 <Accordion.Item eventKey="4">
                     <Accordion.Header>Explanation</Accordion.Header>
                     <Accordion.Body>
-                        <img src={image} style={{width:'80rem'}}/>
+                        <img src={image} style={{ width: '80rem' }} />
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="5">
+                    <Accordion.Header>Video</Accordion.Header>
+                    <Accordion.Body>
+                    <strong style={{color:'red'}}>Correct solution video coming soon!</strong>
+                        <iframe className='video'
+                            title='Youtube player'
+                            sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+                            src={`https://youtube.com/embed/HwF8ELoA-ZI?autoplay=0`}
+                            style={{width:'80rem',height:'35rem', marginLeft:'2%'}}>
+                        </iframe>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
