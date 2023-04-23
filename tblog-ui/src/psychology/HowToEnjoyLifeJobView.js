@@ -23,6 +23,11 @@ class HowToEnjoyLifeJobView extends React.Component {
                                     <li>lack of confidence</li>
                                     <li>started thinking about ourselves as failure</li>
                                     <li>try to fit in where we donot belong</li>
+                                    <br></br>
+                                    To cultivate a mental attitude that will bring us peace and freedom, remember.....<br></br><br></br>
+                                    <strong style={{color:'red', marginLeft:'13.5%'}}> Let's not imitate others.</strong><br></br>
+                                    <strong style={{color:'red', marginLeft:'10%'}}> Let's find ourselves and be ourselves.</strong><br></br>
+                                    Short Video on <a href="https://www.youtube.com/watch?v=0OIZMGEQ298" target="_blank">How to find yourself?</a>
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
