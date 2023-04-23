@@ -30,7 +30,7 @@ class PsychologyBooksMenu extends React.Component {
                                     </Card.Text>
                                     <Nav defaultActiveKey="/home" variant="pills">
                                         <Nav.Item>
-                                            <Nav.Link to="/tech-blog/psychology/read/" as={Link} href="/home">Read</Nav.Link>
+                                            <Nav.Link to="/tech-blog/psychology/read?name=how_to_enjoy_your_life" as={Link} href="/home">Read</Nav.Link>
                                         </Nav.Item>
                                     </Nav>
                                 </Card.Body>
