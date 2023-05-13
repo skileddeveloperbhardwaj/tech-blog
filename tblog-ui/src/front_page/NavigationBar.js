@@ -34,7 +34,7 @@ class NavigationBar extends React.Component {
                 navbarScroll
               >
                 <Nav.Link href="/tech-blog/">Home</Nav.Link>
-                <Nav.Link href="/tech-blog/problem">Problems</Nav.Link>
+                <Nav.Link href="/tech-blog/problem" as={Link}>Problems</Nav.Link>
                 <Nav.Link href="#action2">Data Structures</Nav.Link>
                 <Nav.Link href="#action2">Hot Topics</Nav.Link>
                 <Nav.Link to="/tech-blog/psychology" as={Link}>Psychology</Nav.Link>
