@@ -12,6 +12,8 @@ import PsychologyBooksMenu from '../psychology/PsychologyBooksMenu';
 import PsychologyBookFinder from '../psychology/read/PsychologyBookFinder';
 import DijkstraExplanation from '../algorithms/dijkstra/DijkstraExplanation';
 import DNFExplanation from '../algorithms/dnf/DNFExplanation';
+import ProblemList from './ProblemList';
+import MaxVowelExplanation from '../algorithms/maxvowel/MaxVowelExplanation';
 
 class NavigationBar extends React.Component {
   constructor(props) {
@@ -32,7 +34,7 @@ class NavigationBar extends React.Component {
                 navbarScroll
               >
                 <Nav.Link href="/tech-blog/">Home</Nav.Link>
-                <Nav.Link href="#action2">Problems</Nav.Link>
+                <Nav.Link href="/tech-blog/problem">Problems</Nav.Link>
                 <Nav.Link href="#action2">Data Structures</Nav.Link>
                 <Nav.Link href="#action2">Hot Topics</Nav.Link>
                 <Nav.Link to="/tech-blog/psychology" as={Link}>Psychology</Nav.Link>
@@ -64,7 +66,9 @@ class NavigationBar extends React.Component {
           <Route path="/tech-blog/algorithms/dijkstra/" element={<DijkstraExplanation/>}/>
           <Route path="/tech-blog/algorithms/dnf/" element={<DNFExplanation/>}/>
           <Route path="/tech-blog/psychology/" element={<PsychologyBooksMenu/>}/>
+          <Route path="/tech-blog/problem/" element={<ProblemList/>}/>
           <Route path="/tech-blog/psychology/read/" element={<PsychologyBookFinder/>}/>
+          <Route path="/tech-blog/algorithms/maxvowel/" element={<MaxVowelExplanation/>}/>
         </Routes>
       </Router>
     );

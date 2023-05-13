@@ -42,6 +42,46 @@ class HowToEnjoyLifeJobView extends React.Component {
                                     culpa qui officia deserunt mollit anim id est laborum.
                                 </Accordion.Body>
                             </Accordion.Item>
+                            <Accordion.Item eventKey="2">
+                                <Accordion.Header><strong>#3 What Makes You Tired-and What You Can Do About it</strong></Accordion.Header>
+                                <Accordion.Body>
+                                    <ul>
+                                        <li>Most of our fatigue derives from our mental and emotional attitudes
+                                        </li>
+                                        <li>What kinds of emotional factors tire the sedentary worker?
+                                            <ol>
+                                                <li> Boredom</li>
+                                                <li>Resentment</li>
+                                                <li>Feeling of not being appreciated</li>
+                                                <li>Feeling of futility</li>
+                                                <li>Hurry</li>
+                                                <li>Anxiety</li>
+                                                <li>Worry</li>
+                                            </ol>
+                                        </li>
+                                        <li>A tense muscle is a working muscle. Ease up! Save energy for important duties</li>
+                                        <li>Four suggestions that will help you learn to relax
+                                            <ol>
+                                                <li>Relax in odd moments</li>
+                                                <li>Work, as much as possible, in a comfortable position</li>
+                                                <li>Check yourself 4-5 times a day</li>
+                                                <li>Test yourself again at the end</li>
+                                            </ol>
+                                        </li>
+                                    </ul><br></br>
+                                    <strong style={{color:'red', marginLeft:'13.5%'}}> Let Go...Let Go...Relax!</strong>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="3">
+                                <Accordion.Header><strong>#3 How to Banish the Boredom That Produces Fatigue, Worry, and Resentment</strong></Accordion.Header>
+                                <Accordion.Body>
+                                    <ul>
+                                        <li>One of the chief causes of fatigue is boredom</li>
+                                        <li>Tests showed that the blood pressure of the body and the consumption of oxygen decreases when people are bored</li>
+                                        <li></li>
+                                    </ul>
+                                </Accordion.Body>
+                            </Accordion.Item>
                         </Accordion>
                     </Accordion.Body>
                 </Accordion.Item>
