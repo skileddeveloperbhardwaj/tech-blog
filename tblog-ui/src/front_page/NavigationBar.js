@@ -12,7 +12,7 @@ import PsychologyBooksMenu from '../psychology/PsychologyBooksMenu';
 import PsychologyBookFinder from '../psychology/read/PsychologyBookFinder';
 import DijkstraExplanation from '../algorithms/dijkstra/DijkstraExplanation';
 import DNFExplanation from '../algorithms/dnf/DNFExplanation';
-import ProblemList from './ProblemList';
+import ProblemList from '../problem/ProblemList';
 import MaxVowelExplanation from '../algorithms/maxvowel/MaxVowelExplanation';
 
 class NavigationBar extends React.Component {
