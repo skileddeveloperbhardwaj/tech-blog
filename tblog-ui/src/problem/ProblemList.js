@@ -35,11 +35,11 @@ class ProblemList extends React.Component {
                             <td>2</td>
                             <td>
                                 <Nav.Item>
-                                    <Nav.Link to="/tech-blog/algorithms/maxvowel/" as={Link} style={{ color: 'blue' }}><u></u></Nav.Link>
+                                    <Nav.Link to="/tech-blog/algorithms/search2dmat/" as={Link} style={{ color: 'blue' }}><u>2D Matrix Search</u></Nav.Link>
                                 </Nav.Item>
                             </td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
+                            <td>Array Traversal</td>
+                            <td>Medium</td>
                         </tr>
                         <tr>
                             <td>3</td>

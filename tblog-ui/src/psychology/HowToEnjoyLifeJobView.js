@@ -25,8 +25,8 @@ class HowToEnjoyLifeJobView extends React.Component {
                                     <li>try to fit in where we donot belong</li>
                                     <br></br>
                                     To cultivate a mental attitude that will bring us peace and freedom, remember.....<br></br><br></br>
-                                    <strong style={{color:'red', marginLeft:'13.5%'}}> Let's not imitate others.</strong><br></br>
-                                    <strong style={{color:'red', marginLeft:'10%'}}> Let's find ourselves and be ourselves.</strong><br></br>
+                                    <strong style={{ color: 'red', marginLeft: '13.5%' }}> Let's not imitate others.</strong><br></br>
+                                    <strong style={{ color: 'red', marginLeft: '10%' }}> Let's find ourselves and be ourselves.</strong><br></br>
                                     Short Video on <a href="https://www.youtube.com/watch?v=0OIZMGEQ298" target="_blank">How to find yourself?</a>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -69,11 +69,11 @@ class HowToEnjoyLifeJobView extends React.Component {
                                             </ol>
                                         </li>
                                     </ul><br></br>
-                                    <strong style={{color:'red', marginLeft:'13.5%'}}> Let Go...Let Go...Relax!</strong>
+                                    <strong style={{ color: 'red', marginLeft: '13.5%' }}> Let Go...Let Go...Relax!</strong>
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
-                                <Accordion.Header><strong>#3 How to Banish the Boredom That Produces Fatigue, Worry, and Resentment</strong></Accordion.Header>
+                                <Accordion.Header><strong>#4 How to Banish the Boredom That Produces Fatigue, Worry, and Resentment</strong></Accordion.Header>
                                 <Accordion.Body>
                                     <ul>
                                         <li>One of the chief causes of fatigue is boredom</li>
@@ -82,19 +82,16 @@ class HowToEnjoyLifeJobView extends React.Component {
                                     </ul>
                                 </Accordion.Body>
                             </Accordion.Item>
+                            <Accordion.Item eventKey="4">
+                                <Accordion.Header><strong>#5 Would You Take a Million Dollars for What You Have?</strong></Accordion.Header>
+                                <Accordion.Body>
+                                    <ul>
+                                        <li><strong>Think and Thank: </strong>Think of all we have to be grateful for, and thank God for all our boons and bounties.</li>
+                                        <li>We seldom think of what we have but always of what we lack</li>
+                                    </ul>
+                                </Accordion.Body>
+                            </Accordion.Item>
                         </Accordion>
-                    </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="1">
-                    <Accordion.Header>Accordion Item #2</Accordion.Header>
-                    <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
