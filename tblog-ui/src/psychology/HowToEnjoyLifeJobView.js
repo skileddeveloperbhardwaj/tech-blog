@@ -33,13 +33,12 @@ class HowToEnjoyLifeJobView extends React.Component {
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header><strong>#2 Four Good Working Habits That Will Help Prevent Fatigue and Worry</strong></Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa qui officia deserunt mollit anim id est laborum.
+                                    <ui>
+                                        <li>Clear your desk of all papers except those relating to the immediate problem at hand.</li>
+                                        <li>Do things in the order of their Importance.</li>
+                                        <li>When you face a problem, solve it then and there. If you have the facts necessary to make a decision, don't keep putting off decisions.</li>
+                                        <li>Learn to organize, deputize and supervise</li>
+                                    </ui>
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
@@ -78,7 +77,6 @@ class HowToEnjoyLifeJobView extends React.Component {
                                     <ul>
                                         <li>One of the chief causes of fatigue is boredom</li>
                                         <li>Tests showed that the blood pressure of the body and the consumption of oxygen decreases when people are bored</li>
-                                        <li></li>
                                     </ul>
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -88,6 +86,25 @@ class HowToEnjoyLifeJobView extends React.Component {
                                     <ul>
                                         <li><strong>Think and Thank: </strong>Think of all we have to be grateful for, and thank God for all our boons and bounties.</li>
                                         <li>We seldom think of what we have but always of what we lack</li>
+                                    </ul>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="5">
+                                <Accordion.Header><strong>#5 Remember That No One Ever Kicks a Dead Dog</strong></Accordion.Header>
+                                <Accordion.Body>
+                                    <ul>
+                                        <li><strong>Remember that unjust criticism is often a disguised compliment. Remember that no one ever kicks a dead dog.</strong></li>
+                                    </ul>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="6">
+                                <Accordion.Header><strong>#5 Do This-and Criticism Can't Hurt You</strong></Accordion.Header>
+                                <Accordion.Body>
+                                    <ul>
+                                        <li>If you get your head above the crowd, you're going to be criticized. So get used to the idea.</li>
+                                        <li>When you and I are unjustly criticized, let's remember to:<br></br>
+                                            <strong>Do the very best you can; and then put up your old umbrella and keep the rain of criticism from running down the back of your neck.</strong>
+                                        </li>
                                     </ul>
                                 </Accordion.Body>
                             </Accordion.Item>

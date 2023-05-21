@@ -10,7 +10,7 @@ import Nav from 'react-bootstrap/Nav';
 function AlgoCarouselGrid(props) {
     return (
         <>
-            <Carousel variant="dark" indicators="true" pause="hover">
+            <Carousel varian                                      t="dark" indicators="true" pause="hover">
                 <Carousel.Item>
                     <Container style={{ marginLeft: '7.6%', marginBottom: '2%' }}>
                         <Row>
