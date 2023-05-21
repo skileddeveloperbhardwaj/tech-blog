@@ -90,7 +90,7 @@ class HowToEnjoyLifeJobView extends React.Component {
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="5">
-                                <Accordion.Header><strong>#5 Remember That No One Ever Kicks a Dead Dog</strong></Accordion.Header>
+                                <Accordion.Header><strong>#6 Remember That No One Ever Kicks a Dead Dog</strong></Accordion.Header>
                                 <Accordion.Body>
                                     <ul>
                                         <li><strong>Remember that unjust criticism is often a disguised compliment. Remember that no one ever kicks a dead dog.</strong></li>
@@ -98,7 +98,7 @@ class HowToEnjoyLifeJobView extends React.Component {
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="6">
-                                <Accordion.Header><strong>#5 Do This-and Criticism Can't Hurt You</strong></Accordion.Header>
+                                <Accordion.Header><strong>#7 Do This-and Criticism Can't Hurt You</strong></Accordion.Header>
                                 <Accordion.Body>
                                     <ul>
                                         <li>If you get your head above the crowd, you're going to be criticized. So get used to the idea.</li>
