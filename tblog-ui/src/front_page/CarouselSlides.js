@@ -5,6 +5,7 @@ import firstSlide from '../img/firstSlide.png';
 import secondSlide from '../img/secondSlide.jpg';
 import thirdSlide from '../img/thirdSlide.jpg';
 
+
 class CarouselSlides extends React.Component {
     constructor(props) {
         super(props);
