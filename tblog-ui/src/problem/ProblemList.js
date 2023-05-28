@@ -43,8 +43,13 @@ class ProblemList extends React.Component {
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td colSpan={2}>Larry the Bird</td>
-                            <td>@twitter</td>
+                            <td>
+                                <Nav.Item>
+                                    <Nav.Link to="/tech-blog/algorithms/jumpgame/" as={Link} style={{ color: 'blue' }}><u>Jump Game</u></Nav.Link>
+                                </Nav.Item>
+                            </td>
+                            <td>Array Traversal</td>
+                            <td>Medium</td>
                         </tr>
                     </tbody>
                 </Table>

@@ -15,6 +15,7 @@ import DNFExplanation from '../algorithms/dnf/DNFExplanation';
 import ProblemList from '../problem/ProblemList';
 import MaxVowelExplanation from '../algorithms/maxvowel/MaxVowelExplanation';
 import Search2DMatrixExplanation from '../algorithms/search2dmat/Search2DMatrixExplanation';
+import JumpGameExplanation from '../algorithms/jumpgame/JumpGameExplanation';
 
 class NavigationBar extends React.Component {
   constructor(props) {
@@ -71,6 +72,7 @@ class NavigationBar extends React.Component {
           <Route path="/tech-blog/psychology/read/" element={<PsychologyBookFinder/>}/>
           <Route path="/tech-blog/algorithms/maxvowel/" element={<MaxVowelExplanation/>}/>
           <Route path="/tech-blog/algorithms/search2dmat/" element={<Search2DMatrixExplanation/>}/>
+          <Route path="/tech-blog/algorithms/jumpgame/" element={<JumpGameExplanation/>}/>
         </Routes>
       </Router>
     );
